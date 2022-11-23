@@ -7,7 +7,8 @@
         public void PinCollection()
         {
             Pinbag pass = new();
-            Console.WriteLine("enter four digit pin");
+            Console.WriteLine("login with 1111 or create new accout");
+            //Console.WriteLine("enter four digit pin");
             int input = int.Parse(Console.ReadLine());
 
             List<int> Pin = new List<int>() { 1111, 2222, 3333 };
